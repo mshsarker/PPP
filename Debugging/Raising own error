@@ -27,3 +27,6 @@ def divide(num1, num2):
 
 
 print(divide(1,0))
+print(divide(4,2))
+print(divide([],"1"))
+
