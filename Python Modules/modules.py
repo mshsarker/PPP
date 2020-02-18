@@ -1,3 +1,5 @@
+##This program check if there is any python keyword presents in our list provided.
+
 import keyword
 
 def contains_keyword(*args):
