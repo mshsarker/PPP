@@ -1,6 +1,6 @@
 import pyfiglet
 from termcolor import colored
-
+#In thif exercise we are going to use pyfiglet to create asci art. It is fun!!!
 
 def print_art(text, color):
 	default_colors = ('grey', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan','white')
