@@ -1,0 +1,45 @@
+class BankAccount:
+	def __init__(self, owner, balance = 0.0):
+		self.owner = owner
+		self.balance = balance
+	def deposit(self,add):
+		self.balance = self.balance + add
+		return self.balance
+	def withdraw(self,sub):
+		self.balance = self.balance - sub
+		return self.balance
+acct = BankAccount('Dracy')
+print(acct.owner)
+print(acct.balance)
+print(acct.deposit(10))
+print(acct.withdraw(3))
+
+
+
+
+
+
+# class User:
+# 	def __init__(self, first, last, age):
+# 		self.first = first
+# 		self.last = last
+# 		self. age = age
+# 	def full_name(self):
+# 		return f"{self.first} {self.last}"
+# 	def intials(self):
+# 		return f"{self.first[0]}{self.last[0]}"
+# 	def likes(self, thing):
+# 		return f"{self.first} likes {thing}"
+# 	def is_senior(self):
+# 		return self.age <= 19
+# 	def birthday(self):
+# 		self.age += 1
+# 		return f"Happy {self.age}th birthday {self.first}"
+
+
+# user1 = User('Mohammad', 'Sarker', 30)
+# user2 = User('Hussain', 'Noyon', 19)
+# print(user1.full_name())
+# print(user1.intials())
+# print(user1.likes('Hot food'))
+# print(user2.birthday())
