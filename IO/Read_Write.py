@@ -1,3 +1,4 @@
+This code is from the Udemy course by Colt Stelle.
 '''
 copy('story.txt', 'story_copy.txt') # None
 # expect the contents of story.txt and story_copy.txt to be the same
