@@ -90,27 +90,3 @@ def start_game(all_quotes):
 	
 all_quotes = scrape_quotes()
 start_game(all_quotes)   
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
