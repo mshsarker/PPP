@@ -1,5 +1,5 @@
 ## My solutions to the 150 Challenges by Nichola Lacey
-## Get this wonderful book : affiliate link amazon
+## Get this wonderful book 
 
 # 002 Ask for the user’s first name and then ask for their surname and display the output message 
 # Hello [First Name] [Surname]
